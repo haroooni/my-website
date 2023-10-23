@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+@font-face {
+    font-family: "yekan_b" ;
+    src: url(../font/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+    font-family: "yeseva" ;
+    src: url(../font/YesevaOne-Regular.ttf);
+}
+
+body {
+    background-color: #FCEEE3 !important;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: yekan_b;
+    font-size: 30px;
+    margin-left: 47px;
+    margin-top: 35px;
+}
+
+ul {
+    display: flex;
+    margin-right: 525px;
+}
+
+#music_bac_img {
+    margin-top: 18px;
+    background-image: url("./img/Group 171.svg") ;
+    width: 325px;
+    height: 110px;
+    display: flex;
+    justify-content: end;
+}
+
+#img_artist {
+    width: 80px;
+    height: 80px;
+    margin-top: 11px;
+    margin-left: 18px;
+}
+
+#song_name {
+    margin-left: 12px;
+    font-family: yeseva;
+    margin-top: 18px;
+    font-size: 17px;
+    height: 0px;
+}
+
+#artist_name {
+    margin-top: 43px;
+    font-family: yeseva;
+    margin-left: -159px;
+    font-size: 15px;
+    height: 0px;
+}
+
+#reng_music {
+    margin-top: 82px;
+    margin-left: -77px;
+    width: 189px;
+    height: 6px;
+}
+
+#music_player {
+    margin-right: 63px;
+}
+
+#reng_music::-webkit-meter-bar {
+    background-color: red;
+}
+
+#page_photo {
+    margin-top: 60px;
+}
+
+#badane {
+    display: flex;
+    justify-content: end;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+#text_img {
+    margin-left: 200px;
+  margin-bottom: 175px;
+}
+
+#des_photo {
+    margin-left: -391px;
+    margin-top: 220px;
+}
+
+#title {
+    font-size: 45px;
+    font-family: yekan_b;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+#title {
+    margin-right: 20px;
+    margin-top: 140px;
+}
+
+.data {
+    font-family: yekan;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 50px;
+  line-height: 2;
+  width: 1165px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card_img {
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid #000;
+    height: 150px;
+}
+
+.card_nemomne {
+    border: 2px solid #000;
+    width: 400px;
+    border-radius: 15px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#star {
+    margin-right: 20px;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#img_card {
+    display: flex;
+    justify-content: center;
+}
+
+#h_card {
+    display: flex;
+    justify-content: center;
+}
+
+#h_card h1 {
+    font-size: 30px;
+    font-family: yekan_b;
+    margin-top: 30px;
+}
+
+#nemone {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#nemone {
+    font-family: yekan_b;
+    font-size: 40px;
+}
